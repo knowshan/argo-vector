@@ -1,0 +1,8 @@
+project: default
+source:
+  repoURL: 'git@github.com:knowshan/argo-vector.git'
+  path: .
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: observability
